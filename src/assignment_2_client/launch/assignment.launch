@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- action client -->
+  <node pkg="assignment_2_client" type="action_client.py" name="action_client" output="screen" />
+
+  <!-- publicar posição e velocidade -->
+  <node pkg="assignment_2_client" type="position_velocity_publisher.py" name="position_velocity_publisher" output="screen" />
+
+  <!-- alvo -->
+  <node pkg="assignment_2_client" type="target_service.py" name="target_service" output="screen" />
+
+
+</launch>
