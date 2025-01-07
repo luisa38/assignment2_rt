@@ -17,7 +17,7 @@ def main():
     rospy.init_node('position_velocity_publisher')
     #pub = rospy.Publisher('/position_velocity', PositionVelocity, queue_size=10)
     rospy.Subscriber('/odom', Odometry, callback)
-    rospy.loginfo("Nodo position_velocity_publisher iniciado.")
+    rospy.loginfo("Node position_velocity_publisher started.")
     rospy.spin()
 
 if __name__ == "__main__":
