@@ -30,5 +30,5 @@ This ROS1 package implements:
 * The Service Node returns the last target sent.
 
 ## Requirements
-ROS installed
-Package assignment_2_2024
+* ROS installed
+* Package assignment_2_2024
